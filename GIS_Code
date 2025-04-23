@@ -1,0 +1,7 @@
+Con(
+    ("*PERMAFROST\probability\PERPROB_5.tif" > 0.8) & 
+    ("*PERMAFROST\tempreture\MAGTM_NH.tif" > -2) & 
+    ("*PERMAFROST\tempreture\MAGTM_NH.tif" <= 0),
+    1,
+    0
+)
